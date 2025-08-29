@@ -6,6 +6,7 @@ import blog from "../../Assets/Projects/blog.jpg"
 import Ecommerce from "../../Assets/Projects/E-commerce.jpg"
 import PodVerse from "../../Assets/Projects/PodVerse.png"
 import Pinterest from "../../Assets/Projects/Pinterest.jpg"
+import Scorely from "../../Assets/Projects/Scorely.png"
 
 
 function Projects() {
@@ -42,6 +43,18 @@ function Projects() {
               demoLink="https://e-commerce-frontend-5wyd.onrender.com"
             />
           </Col>
+
+ <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Scorely}
+              isBlog={false}
+              title="ShopKnock"
+             description="A fully-featured MERN stack e-commerce application with user authentication powered by JWT, global state management using Redux Toolkit, and containerized deployment with Docker. Includes product listings, cart functionality, order placement, Stripe payment integration, and admin dashboard for product and order management."
+              ghLink="https://github.com/Mohd-Shoaib-Coder/E-commerce"
+              demoLink="https://scorely-frontend.onrender.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Pinterest}
